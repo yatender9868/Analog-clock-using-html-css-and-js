@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.main {
+    background: rgba(0, 0, 0, 1) url("pexels-pixabay-531880\ -\ Copy.jpg") no-repeat center center / cover;
+    width: 100vw;
+    height: 90vh;
+    padding-top: 10vh;
+
+}
+
+#container {
+    background: url(clock_no.png) no-repeat;
+    opacity: 0.9;
+    background-size: contain;
+    background-position: center;
+    position: relative;
+    width: 26vw;
+    height: 26vw;
+    /* width: 626px;
+    height: 626px; */
+    margin: auto;
+}
+
+#hour,
+#minute,
+#second {
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+}
+
+#hour {
+    height: 22%;
+    width: 1.5%;
+    top: 28%;
+    left: 49.01%;
+    transform-origin: bottom;
+    color: white;
+}
+
+#minute {
+    height: 31%;
+    width: 1.5%;
+    top: 19%;
+    left: 49.01%;
+    transform-origin: bottom;
+}
+
+#second {
+    height: 40%;
+    width: 1.5%;
+    top: 10.1%;
+    left: 49.01%;
+    transform-origin: bottom;
+}
